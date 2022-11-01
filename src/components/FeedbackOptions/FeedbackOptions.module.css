@@ -1,0 +1,25 @@
+.options {
+    display: inline-flex;
+    padding: 15px;
+}
+
+.options__item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.options__dtn {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-color: rgba(204, 204, 204, 0.151);
+}
+
+.options__dtn:hover {
+    background-color: #0400da;
+    color: aliceblue;
+    scale: 1.1;
+}
